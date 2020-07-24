@@ -31,15 +31,15 @@ export class AppComponent implements OnInit {
     );
     this.signupForm.setValue({
       'userData': {
-        'username': 'Max',
-        'email': 'max@test.com'
+        'username': 'Smith',
+        'email': 'Gabe@test.com'
       },
       'gender': 'male',
       'hobbies': []
     });
     this.signupForm.patchValue({
       'userData': {
-        'username': 'Anna',
+        'username': 'Gabe',
       }
     });
   }
